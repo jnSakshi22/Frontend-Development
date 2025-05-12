@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      a[target] {
+        background-color: yellowgreen;
+      }
+      a[href="http://www.disney.com"]
+      {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS [attribute] Selector</h2>
+    <p>The links with a target attribute gets a yellow background:</p>
+
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+  </body>
+</html>
+<!-- Examples -
+ 1. [attr] — Attribute Exists
+  Selects elements that have a specific attribute, regardless of its value.
+
+input[required] {
+  border: 2px solid red;
+}
+Selects all <input> elements with the required attribute.
+
+ 2. [attr="value"] — Exact Match
+ Selects elements with an attribute exactly equal to a given value.
+
+input[type="text"] {
+  background-color: #f0f0f0;
+}
+Selects only <input type="text">.
+
+3. [attr~="value"] — Word Match
+Selects elements where the attribute value contains a specific word (space-separated).
+
+div[class~="highlight"] {
+  background: yellow;
+}
+Matches <div class="box highlight"> but not <div class="box-highlighter">.
+
+4. [attr|="value"] — Starts with Exact Word (or hyphenated word)
+Selects elements whose attribute value is exactly the word or starts with it followed by -.
+
+p[lang|="en"] {
+  color: blue;
+}
+Matches lang="en" and lang="en-US", but not lang="english".
+
+5. [attr^="value"] — Begins With
+Selects elements whose attribute value starts with a specified string.
+
+a[href^="https"] {
+  color: green;
+}
+Matches links like <a href="https://example.com">, but not http://.
+
+6. [attr$="value"] — Ends With
+Selects elements whose attribute value ends with a specified string.
+
+img[src$=".jpg"] {
+  border-radius: 10px;
+}
+Matches <img src="photo.jpg">, not photo.png.
+
+7. [attr*="value"] — Contains Substring
+Selects elements whose attribute value contains a given substring anywhere.
+
+a[href*="login"] {
+  text-decoration: underline;
+}
+Matches href="user/login" or href="login.html".-->

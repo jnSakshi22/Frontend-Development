@@ -1,0 +1,7 @@
+1. Basics of HTML
+2. Multimedia Tags and embedded elements
+3. Semantic Tags
+4. Cookies, local storage, session storage.
+5. HTML Forms
+6. HTML security
+
