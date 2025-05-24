@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM API - getElementById()</title>
+  </head>
+  <body>
+    <p id="firs">Hi, There!</p>
+    <p id="firs">JavaScript is fun.</p>
+    <p>
+      The document.getElementById() returns a DOM element specified by an id or
+      null if no matching element is found.
+    </p>
+    <p>
+      If multiple elements have the same id, even though it is invalid, the
+      getElementById() returns the first element it encounters.
+    </p>
+  </body>
+  <script>
+    const elem = document.getElementById("first");
+    console.log(elem);
+  </script>
+</html>
