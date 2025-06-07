@@ -1,0 +1,25 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "This is namaste react by Sakshi Jain",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnSakshi22/Frontend-Development.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Sakshi Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnSakshi22/Frontend-Development/issues"
+  },
+  "homepage": "https://github.com/jnSakshi22/Frontend-Development#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
